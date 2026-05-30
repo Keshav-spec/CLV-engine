@@ -90,3 +90,6 @@ dist/
 
 desktop.ini
 
+
+data/raw/*
+data/processed/*

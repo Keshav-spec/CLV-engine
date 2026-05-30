@@ -1,0 +1,92 @@
+# Python
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# Environment Variables
+
+.env
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Mac / Windows System Files
+
+.DS_Store
+Thumbs.db
+
+# Dataset Files
+# Keep raw datasets out of GitHub
+
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed Data
+# Optional:
+# Uncomment if processed files become large
+
+# data/processed/*
+# data/features/*
+
+# Model Files
+
+models/*
+!models/.gitkeep
+
+# Output Files
+
+outputs/*
+!outputs/.gitkeep
+
+# Logs
+
+logs/
+*.log
+
+# Power BI Temporary Files
+
+*.tmp
+*.bak
+*.pbix.autosave
+
+# Python Packaging
+
+build/
+dist/
+*.egg-info/
+
+# Cache Files
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Matplotlib
+
+.matplotlib/
+
+# Parquet / Large Data Files
+
+*.parquet
+
+# OS Generated Files
+
+desktop.ini
+

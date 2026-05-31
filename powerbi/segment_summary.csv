@@ -1,0 +1,5 @@
+clv_segment,customer_count,avg_clv,total_clv,avg_frequency,avg_prob_alive,avg_monetary,clv_share_pct
+Low Value,1041,1100.57,1145697.46,2.13,0.72,195.63,2.2
+Medium Value,1041,3258.2,3391785.66,2.93,0.89,299.7,6.4
+High Value,1040,7523.32,7824256.6,5.6,0.95,393.07,14.8
+Champions,1041,39000.97,40600005.42,13.71,0.98,908.56,76.7

@@ -1,95 +1,68 @@
-# Python
+```gitignore
+# Python cache
 
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 
-# Virtual Environment
+# Virtual environments
 
 venv/
 env/
 .venv/
 
-# Jupyter Notebook
-
-.ipynb_checkpoints/
-
-# Environment Variables
+# Environment variables
 
 .env
 
-# VS Code
+# IDE files
 
 .vscode/
-
-# PyCharm
-
 .idea/
 
-# Mac / Windows System Files
+# Jupyter
+
+.ipynb_checkpoints/
+
+# OS files
 
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Dataset Files
-# Keep raw datasets out of GitHub
+# Raw datasets (too large for GitHub)
 
 data/raw/*
 !data/raw/.gitkeep
 
-# Processed Data
-# Optional:
-# Uncomment if processed files become large
-
-# data/processed/*
-# data/features/*
-
-# Model Files
+# Model files
 
 models/*
 !models/.gitkeep
 
-# Output Files
-
-outputs/*
-!outputs/.gitkeep
-
 # Logs
 
-logs/
 *.log
 
-# Power BI Temporary Files
+# Power BI temp files
 
 *.tmp
 *.bak
 *.pbix.autosave
 
-# Python Packaging
+# Build files
 
 build/
 dist/
 *.egg-info/
 
-# Cache Files
+# Cache
 
 .cache/
 .pytest_cache/
 .mypy_cache/
 
-# Matplotlib
+# Keep deployment-required files tracked
 
-.matplotlib/
-
-# Parquet / Large Data Files
-
-*.parquet
-
-# OS Generated Files
-
-desktop.ini
-
-
-data/raw/*
-data/processed/*
+!data/features/clv_scored.csv
+!outputs/reports/segment_summary.csv
+```

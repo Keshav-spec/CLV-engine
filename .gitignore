@@ -65,4 +65,6 @@ dist/
 
 !data/features/clv_scored.csv
 !outputs/reports/segment_summary.csv
+
+*.pbix
 ```
